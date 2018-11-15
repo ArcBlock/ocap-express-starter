@@ -16,12 +16,6 @@ Then visit `http://localhost:3000/ocap/eth/account/0x1866151577f7bd9bf31c7efb094
 
 > If you are from China, use a mirror npm registry maybe better: `yarn --registry=https://registry.npm.taobao.org`
 
-## OCAP SDK Usage Example
-
-- SDK Initialize: [src/libs/ocap.js](./src/libs/ocap.js)
-- Query Demo: [src/pages/Query/index.js](./src/pages/Query/index.js)
-- Subscription Demo: [src/pages/Subscription/index.js](./src/pages/Subscription/index.js)
-
 ## OCAP SDK Documentation
 
 - [SDK Homepage](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js)
