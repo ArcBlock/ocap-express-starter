@@ -2,9 +2,7 @@
 
 ![](https://img.shields.io/badge/powered%20by-arcblock-brightgreen.svg)
 
-> OCAP express.js starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated, bootstrapped using [create-react-app](https://github.com/facebook/create-react-app).
-
-> 中文版文档请猛击 [README.cn.md](./README.cn.md)
+> OCAP express.js starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated.
 
 ## Usage
 
