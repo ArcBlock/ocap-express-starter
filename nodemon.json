@@ -1,0 +1,7 @@
+{
+  "watch": ["routes", "config"],
+  "script": "bin/www",
+  "ext": "js coffee ejs",
+  "env": { "NODE_ENV": "development" },
+  "stdout": true
+}

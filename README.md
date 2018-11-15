@@ -9,7 +9,7 @@
 ```shell
 git clone https://github.com/ArcBlock/ocap-express-starter.git
 cd ocap-express-starter
-yarn start
+yarn dev
 ```
 
 > If you are from China, use a mirror npm registry maybe better: `yarn --registry=https://registry.npm.taobao.org`

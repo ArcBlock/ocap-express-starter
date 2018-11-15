@@ -1,16 +1,22 @@
 {
-  "name": "ocap-express-starter",
+  "name": "@arcblock/ocap-express-starter",
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "dev": "DEBUG=BaseClient,ocap-express-starter:* nodemon --config nodemon.json",
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@arcblock/ocap-js": "^0.12.0",
+    "config": "^2.0.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
