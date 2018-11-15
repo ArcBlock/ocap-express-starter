@@ -8,8 +8,9 @@ supportedDataSource.forEach(dataSource => {
   clients[dataSource] = new OCAPClient({
     dataSource,
     httpEndpoint: ds => `${config.ocap.baseUrl}/${ds}`,
-    // accessKey: config.ocap.accessKey,
-    // accessSecret: config.ocap.accessSecret,
+    // Change in `config/default.js` to leverage large page size limit
+    accessKey: config.ocap.accessKey,
+    accessSecret: config.ocap.accessSecret,
   });
 });
 
@@ -46,7 +47,14 @@ const generateHandler = (method, paramKey) => (req, res) => {
       paging,
     },
     {
-      ignoreFields: ['data.parent', 'data.publicKey', 'data.from.pubKey', 'data.to.pubKey'],
+      ignoreFields: [
+        'data.parent',
+        'data.publicKey',
+        'data.from.pubKey',
+        'data.to.pubKey',
+        'txsSent',
+        'txsReceived',
+      ],
     }
   )
     .then(_res => {
