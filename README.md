@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/powered%20by-arcblock-brightgreen.svg)
 
-> OCAP express.js starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated, a simple http server that transform OCAP API to rest API
+> OCAP express.js starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated, a simple web server that transform GraphQL API of ArcBlock OCAP service to REST API
 
 ## Usage
 
