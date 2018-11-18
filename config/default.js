@@ -9,5 +9,6 @@ module.exports = {
     // USE CORRECT accessKey/Secret pair from https://console.arcblock.io
     accessKey: '',
     accessSecret: '',
+    pageSize: 10,
   },
 };
